@@ -1,0 +1,32 @@
+h1{
+text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #e5ecf4;
+}
+
+
+
+.container{
+  border-radius: 25px;
+  background: #e5ecf4;;
+  padding: 20px;
+  width: 200px;
+  height: 130px;
+  text-items: center;
+  margin: 0 auto;
+}
+
+body{
+  background-color: #171614 
+}
+
+/*    .container{
+    width:25%;
+    height:50px;
+    background-color:#E6E8E6 ;
+    padding:10px;
+    border:2px solid #3f403f;
+} 
+*/
+
+
