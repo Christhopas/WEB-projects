@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>RollDicer</title>
+  <link href="style.css" rel="stylesheet"     
+  type="text/css"/>
+</head>
+
+  
+<body>
+  <img class="dadosr" src="giphy.gif" alt="gif de dado">
+  
+  <div class="center container dices">
+    <h1 >RollDicer 1.1</h1>
+  
+    <div >
+      <label for="dn">Qtd. Dices</label>
+      <input id="dn" type="number" value="1" min="1">
+    </div>
+
+    <div>
+      <div>
+      <p>Dice</p>
+      <!-- dado d4 -->
+      <input id="d4" type="radio" name="faces" value="4"
+       checked>
+      <label for="d4">D4</label>
+      <!-- dado d10 -->
+      <input id="d10" type="radio" name="faces"         
+       value="10">
+      <label for="d10">D10</label>
+      <!-- dado d20 -->
+      <input id="d20" type="radio" name="faces" 
+       value="20">
+      <label for="d20">D20</label>
+    </div>
+      
+    <br>
+      
+    <button onclick="rolar()">Roll</button> 
+      
+    <div>
+      <div id="res">???</div>
+      <div id="rolagens"></div>
+    </div>
+      
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

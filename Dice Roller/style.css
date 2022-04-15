@@ -1,0 +1,28 @@
+.dadosr{
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  border: 2px solid white;
+  float: right;
+}
+
+.dices{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container{
+  padding: 35px 35px 35px 35px;
+  border-radius: 25px;
+  background-color:#2f3061;
+}
+
+.center{
+  text-align: center;
+}
+
+body{
+  color: white;
+}
