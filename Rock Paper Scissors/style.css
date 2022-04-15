@@ -1,0 +1,36 @@
+img{
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+  border-color: #ffff;
+  border-style: solid;
+  margin-right:20px;
+  margin-left:20px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #d6d5c9;
+  margin-top: 45px;
+}
+
+body{
+   font-family: 'Lato', sans-serif;
+  background-color: #02010a;
+}
+
+.placar{
+  text-align: center;
+  margin-top: 70px;
+  color: #d6d5c9
+}
+
+.center {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+
