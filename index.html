@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>$</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <h1>Conversor de Moedas</h1>
+
+  <div class="container">
+    <div>
+      <p>Converter de:</p>
+      <input type="radio" name="in" value="BRL" checked>Real 
+      <input type="radio" name="in" value="USD">Dolar <br>
+      <input type="radio" name="in" value="GBP">Libra 
+      <input type="radio" name="in" value="EUR"> Euro 
+    </div>
+  
+    <div>
+      <p>Para:</p>
+      <input type="radio" name="out" value="BRL">Real 
+      <input type="radio" name="out" value="USD" checked>Dolar <br>
+      <input type="radio" name="out" value="GBP">Libra 
+      <input type="radio" name="out" value="EUR"> Euro 
+    </div>
+  
+  
+  <br>
+  
+    <div>
+    valor:
+      <input id="quantia" type="number" value="10.00">
+    </div>
+    
+    <br>
+    
+    <button onclick="converter()">Converter</button>
+
+    <div>
+      <p><span id="resultado">???</p>
+    </div>
+  </div>
+
+  <p>made by @christhopas</p>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
